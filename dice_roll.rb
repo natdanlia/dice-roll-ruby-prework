@@ -5,9 +5,9 @@
 require 'pry'
 
 def roll
-  binding.pry 
   arr = [1,2,3,4,5,6]
   arr.sample
+  binding.pry
 end
 
 roll
